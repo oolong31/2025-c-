@@ -1,0 +1,24 @@
+# 忽略上传的压缩文件和临时文件
+uploads/*.zip
+uploads/*.tar.gz
+uploads/*.tar.bz2
+uploads/*.rar
+uploads/*.7z
+uploads/temp/
+uploads/extracted/
+
+# 系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 临时目录
+temp/
+tmp/
